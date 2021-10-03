@@ -5,19 +5,16 @@
     --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
     
 }
-box-icon{
-    width: 84px;
-    height: 84px;
+.bx{
+    width: 100px;
+    height: 100px;
     align-items: center;
     justify-content: center;
-    background-color: white;
-    color: #fff;
-    font-size:32px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size:100px;
     border-radius: 100px;
     flex: none;
-}
-
-section{
     
 }
 
