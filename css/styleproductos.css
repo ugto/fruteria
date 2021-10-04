@@ -32,3 +32,8 @@ p {
     padding: 25px;
     transition: all 0.35s ease;
 }
+
+.card-effect:hover{
+    box-shadow: none;
+    transform: translateY(5px);
+}
