@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.hero{
+    background-image: url(../Images/fondo3.jpeg);
+    background-position: center;
+    background-size:cover;
+}
+:root{
+    --primary:#c754b8a1;
+    --dark: #21252f;
+    --body:#888;
+    --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+    
+}
+.display-4, h5, p{
+    font-family: Prompt;
+    color:var(--dark);
+    font-weight: 800;
+}
+
+p {
+    text-align: justify;
+    
+  }
