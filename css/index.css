@@ -13,3 +13,13 @@
   padding: 20px 0;
   text-align: center;
 }
+.carder-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+
+.card-border:hover {
+  transform: scale(1.7);
+}
