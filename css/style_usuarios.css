@@ -6,7 +6,7 @@
   }
 
 .container::after{
-    background-image: url(../imges/login/login_bg.jpg);
+    background-image: url(../Images/login/login_bg.jpg);
     background-position: center;
     background-size: contain;
     background-attachment: fixed;   
