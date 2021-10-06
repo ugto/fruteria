@@ -12,13 +12,18 @@
       crossorigin="anonymous"
     />
     <title>Fruteria</title>
+    <link href="/css/index.css" rel="stylesheet" />
   </head>
   <body>
     <!--header-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="Images/Logo.jpg" alt="Logitipo principal" width="50" />
+          <img
+            src="Images/Logo.jpg"
+            alt="Logitipo principal"
+            width="50"
+          />
         </a>
         <a class="navbar-brand" href="#">Fruteria UGTO</a>
         <button
@@ -112,33 +117,37 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <br />
-
     <!--fin de carosel-->
     <!--Descripcion-->
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-12 text-center">
-          <h3>¡Hola!</h3>
-          <p style="text-align: justify">
-            Te damos la bienvenida a nuestra pagina fruteria UGTO dispuesta para
-            cumplir con sus expectativas, disfruta de un momento agradable donde
-            podras adquirir los productos de tu interes y permitirte deleitarte
-            con nuestros productos.
-          </p>
-          <p style="text-align: justify">
-            Uno de los objetivos principales es la de mantener un servicio al
-            cliente de excelente calidad con la mayor atención a todos nuestros
-            clientes para que cada uno de ellos tenga la seguridad que esta
-            siendo atendido como se merece y brindar de esta manera cordial.
-            Otro objetivo primordial es la consecución de una producción de muy
-            excelente calidad y un impacto visual formidable. El gran objetivo
-            es consolidarnos en una empresa de gran trayectoria y reconocimiento
-            llegando a ser a unas de las fruterías mas reconocidas del país.
-          </p>
+    <div class="description">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 text-center">
+            <h3>¡Hola!</h3>
+            <p style="text-align: justify">
+              Te damos la bienvenida a nuestra pagina fruteria UGTO dispuesta
+              para cumplir con sus expectativas, disfruta de un momento
+              agradable donde podras adquirir los productos de tu interes y
+              permitirte deleitarte con nuestros productos.
+            </p>
+            <p style="text-align: justify">
+              Uno de los objetivos principales es la de mantener un servicio al
+              cliente de excelente calidad con la mayor atención a todos
+              nuestros clientes para que cada uno de ellos tenga la seguridad
+              que esta siendo atendido como se merece y brindar de esta manera
+              cordial. Otro objetivo primordial es la consecución de una
+              producción de muy excelente calidad y un impacto visual
+              formidable. El gran objetivo es consolidarnos en una empresa de
+              gran trayectoria y reconocimiento llegando a ser a unas de las
+              fruterías mas reconocidas del país.
+            </p>
+          </div>
         </div>
       </div>
     </div>
+    <br />
+    <hr class="container" />
+    <br />
     <!--fin de descripcion-->
     <!--main-->
     <main>
@@ -146,7 +155,16 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-sm-3 text-center">
-              <img src="Images/ajos.jpg" alt="imagen1" style="width: 150px" />
+              <div
+                class="btn-group"
+                role="group"
+                aria-label="Third group"
+              ></div>
+              <img
+                src="Images/ajos.jpg"
+                alt="imagen1"
+                style="width: 150px"
+              />
               <h3>Ajos</h3>
               <p>$12 el kg</p>
             </div>
@@ -169,17 +187,29 @@
               <p>$17 el kg</p>
             </div>
             <div class="col-12 col-sm-3 text-center">
-              <img src="Images/ramas.jpg" alt="imagen1" style="width: 150px" />
+              <img
+                src="Images/ramas.jpg"
+                alt="imagen1"
+                style="width: 150px"
+              />
               <h3>Cilantro</h3>
               <p>$5 la pieza</p>
             </div>
             <div class="col-12 col-sm-3 text-center">
-              <img src="Images/rabano.jpg" alt="imagen1" style="width: 150px" />
+              <img
+                src="Images/rabano.jpg"
+                alt="imagen1"
+                style="width: 150px"
+              />
               <h3>Rabano</h3>
               <p>$16 el kg</p>
             </div>
             <div class="col-12 col-sm-3 text-center">
-              <img src="Images/tomate.jpg" alt="imagen1" style="width: 150px" />
+              <img
+                src="Images/tomate.jpg"
+                alt="imagen1"
+                style="width: 150px"
+              />
               <h3>Tomate</h3>
               <p>$28 el kg</p>
             </div>
@@ -193,7 +223,11 @@
               <p>$8 el kg</p>
             </div>
             <div class="col-12 col-sm-3 text-center">
-              <img src="Images/limon.jpg" alt="imagen1" style="width: 150px" />
+              <img
+                src="Images/limon.jpg"
+                alt="imagen1"
+                style="width: 150px"
+              />
               <h3>Limón</h3>
               <p>$22 el kg</p>
             </div>
@@ -201,6 +235,21 @@
         </div>
       </section>
     </main>
+
+    <!--Footer-->
+    <footer class="footer">
+      <img
+        class="iconos-redes"
+        src="Images/Iconos/facebook.svg"
+        alt="facebook"
+      />
+      <img
+        class="iconos-redes"
+        src="Images/Iconos/instagram.svg"
+        alt="instagram"
+      />
+    </footer>
+    <!--fin de footer-->
 
     <!--Link de js de bootstrap-->
     <script
