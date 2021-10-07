@@ -1,0 +1,46 @@
+.iconos-redes {
+  width: 30px;
+  padding: 10px 0;
+  text-align: center;
+}
+.footer {
+  background-color: darkgray;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer2 {
+  background-color: dimgray;
+  padding: 100px 0;
+  text-align: center;
+}
+.description {
+  background-color: rgb(219, 219, 219);
+  padding: 20px 0;
+  text-align: center;
+}
+.carder-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+
+.card-border:hover {
+  transform: scale(1.7);
+}
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto-encima {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
