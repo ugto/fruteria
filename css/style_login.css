@@ -5,7 +5,7 @@
     --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
     
 }
-.bx{
+form .bx{
     width: 100px;
     height: 100px;
     align-items: center;
@@ -40,11 +40,6 @@
     z-index: -1;
 }
 
-.footer{
-    background-color: black;
-}
-
-
 #formulario{
     margin-top: 20px;
     margin-bottom: 17px;
@@ -53,4 +48,18 @@
     border-color: white;
     font-size: x-large;
     border-radius: 1.8%;
+}
+
+.footer{
+    color: white;
+    background-color: rgb(24, 27, 25);
+}
+footer .bx{
+    font-size: 30px;
+    width: 50px;
+    color: white;
+    
+}
+footer li {
+    color: #ffffff;
 }
